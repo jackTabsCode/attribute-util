@@ -1,0 +1,27 @@
+{
+	"name": "@rbxts/attribute-util",
+	"version": "1.0.0",
+	"description": "Typed instance attribute helper functions for Roblox.",
+	"main": "out/init.lua",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w",
+		"prepublishOnly": "npm run build"
+	},
+	"keywords": [],
+	"author": "jackTabsCode",
+	"license": "MIT",
+	"types": "out/index.d.ts",
+	"files": [
+		"out",
+		"!**/*.tsbuildinfo"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@rbxts/compiler-types": "^2.1.0-types.1",
+		"@rbxts/types": "^1.0.676",
+		"typescript": "^5.0.4"
+	}
+}
