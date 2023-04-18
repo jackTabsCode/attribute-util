@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/attribute-util",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Typed instance attribute helper functions for Roblox.",
 	"main": "out/init.lua",
 	"scripts": {
